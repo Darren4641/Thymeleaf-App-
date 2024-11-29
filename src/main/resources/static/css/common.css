@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
+
+/*노토산스*/
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Black-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Black-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Black-Hestia.otf') format('opentype');
+    font-weight:700;
+    font-style:normal;
+}
+/*@font-face{*/
+/*    font-family:'NotoSansKR';*/
+/*    src:url('/assets/fonts/Roboto-Black-Hestia.eot');*/
+/*    src:url('/assets/fonts/Roboto-Black-Hestia.woff') format('woff'),*/
+/*    url('/assets/fonts/Roboto-Black-Hestia.ttf') format('ttf');*/
+/*    font-weight:700;*/
+/*    font-style:normal;*/
+/*}Roboto-Black-Hestia.woff*/
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Bold-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Bold-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Bold-Hestia.otf') format('ttf');
+    font-weight:600;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-Bold.eot');
+    src:url('/assets/fonts/Roboto-Bold.woff') format('woff'),
+    url('/assets/fonts/Roboto-Bold.otf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:600;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Medium-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Medium-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Medium-Hestia.otf') format('opentype');
+    font-weight:500;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-Medium.eot');
+    src:url('/assets/fonts/Roboto-Medium.woff') format('woff'),
+    url('/assets/fonts/Roboto-Medium.otf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:500;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Regular-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Regular-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Regular-Hestia.otf') format('opentype');
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-Regular.eot');
+    src:url('/assets/fonts/Roboto-Regular.woff') format('woff'),
+    url('/assets/fonts/Roboto-Regular.otf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-DemiLight-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-DemiLight-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-DemiLight-Hestia.otf') format('opentype');
+    font-weight:300;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-DemiLight.eot');
+    src:url('/assets/fonts/Roboto-DemiLight.woff') format('woff'),
+    url('/assets/fonts/Roboto-DemiLight.ttf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:300;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Light-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Light-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Light-Hestia.otf') format('opentype');
+    font-weight:200;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-Light.eot');
+    src:url('/assets/fonts/Roboto-Light.woff') format('woff'),
+    url('/assets/fonts/Roboto-Light.otf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:200;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/NotoSansKR-Thin-Hestia.eot');
+    src:url('/assets/fonts/NotoSansKR-Thin-Hestia.woff') format('woff'),
+    url('/assets/fonts/NotoSansKR-Thin-Hestia.otf') format('opentype');
+    font-weight:100;
+    font-style:normal;
+}
+@font-face{
+    font-family:'NotoSansKR';
+    src:url('/assets/fonts/Roboto-Thin.eot');
+    src:url('/assets/fonts/Roboto-Thin.woff') format('woff'),
+    url('/assets/fonts/Roboto-Thin.otf') format('ttf');
+    unicode-range: U+0030-0039;
+    font-weight:100;
+    font-style:normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, div,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;*/
+    /*font: inherit;*/
+    /*vertical-align: middle;*/
+    outline: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+
+/* 공통 스타일 */
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* 기본 폰트 */
+    background-color: #eef3f8;
+}
+
+.app-container {
+    max-width: 425px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff; /* 흰색 배경 */
+    min-height: 100vh; /* 화면 전체 높이 */
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img, span {
+    display: block;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    max-width: 390px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.header--cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header--logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.header--icon .icon-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Main Content */
+#cnt {
+    margin-top: 70px;
+    width: 100%;
+    padding: 16px;
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-thumbnail {
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+    flex-shrink: 0;
+}
+
+.card-body {
+    padding: 8px 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 4px;
+}
+
+.card-subtitle {
+    font-size: 12px;
+    color: #888;
+    margin: 0 0 8px;
+}
+
+.card-price {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    max-width: 390px;
+    background-color: #ffffff;
+    padding: 12px 16px;
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.footer--cnt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer--item {
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer--item span {
+    font-size: 24px;
+}
+
+.footer--item p {
+    margin: 4px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .header, .footer {
+        max-width: 100%;
+
+    }
+
+    #cnt {
+        padding: 8px; /* 콘텐츠 패딩 축소 */
+    }
+
+    .card-thumbnail {
+        width: 80px; /* 썸네일 크기 조정 */
+        height: 80px;
+    }
+
+    .card-title {
+        font-size: 13px;
+    }
+
+    .card-subtitle {
+        font-size: 11px;
+    }
+
+    .footer--cnt {
+        gap: 8px; /* 푸터 아이템 간 간격 */
+    }
+
+    .footer--item span {
+        font-size: 20px; /* 푸터 아이콘 크기 */
+    }
+
+    .footer--item p {
+        font-size: 10px; /* 푸터 텍스트 크기 */
+    }
+}

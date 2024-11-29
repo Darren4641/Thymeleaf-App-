@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>App Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" th:href="@{/css/common.css}" />
+</head>
+<body>
+<div class="app-container">
+    <!-- Header -->
+    <header class="header whiteBg">
+        <div class="header--cnt">
+            <div class="header--icon">
+                <button class="icon-button">
+                    <span>메뉴</span>
+                </button>
+            </div>
+            <div class="header--logo">
+                <span class="header--title">서비스명</span>
+            </div>
+            <div class="header--icon">
+                <button class="icon-button">
+                    <span>버튼</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="cnt">
+        <div class="content">
+            <section class="card-list">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-thumbnail"></div>
+                    <div class="card-body">
+                        <h3 class="card-title">제목</h3>
+                        <p class="card-subtitle">서브 제목</p>
+                        <p class="card-price">포인트 주기</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="footer--cnt">
+            <div class="footer--item">
+                <a href="#">
+                    <span>🏠</span>
+                    <p>Home</p>
+                </a>
+            </div>
+            <div class="footer--item">
+                <a href="#">
+                    <span>🎁</span>
+                    <p>Tab1</p>
+                </a>
+            </div>
+            <div class="footer--item">
+                <a href="#">
+                    <span>👤</span>
+                    <p>Tab2</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
